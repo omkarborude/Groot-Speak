@@ -4,7 +4,7 @@ var button = document.querySelector("#BTN");
 var out = document.querySelector("#output");
 
 //define serverurl
-var serverURL = "https://api.funtranslations.com/translate/groot.json";
+var serverURL = "https://api.funtranslations.com/translate/pirate.json";
 
 //function gettranlsated url
 function getTranslatedURL(text) {
