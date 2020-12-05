@@ -1,4 +1,4 @@
-// get all
+// get all in
 var txtinput = document.querySelector("#Textinput");
 var button = document.querySelector("#BTN");
 var out = document.querySelector("#output");
