@@ -7,8 +7,8 @@ var out = document.querySelector("#output");
 var serverURL = "https://api.funtranslations.com/translate/groot.json";
 
 //function gettranlsated url
-function getTranslatedURL(text) {
-    return serverURL + "?" + "text=" + text
+function getTranslatedURL(input) {
+    return serverURL + "?" + "text=" + input
 }
 
 //function errorHandler
@@ -24,7 +24,7 @@ function clickHandler(){
     
     //fetch gettranslationURL
     fetch(getTranslatedURL(textinput))
-    .then(response => respone.json())
+    .then(response => response.json())
     .then(json => {
         var tranlsatedText = json.contents.translated;
         out.innerText = tranlsatedText;
