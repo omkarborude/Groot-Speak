@@ -1,0 +1,107 @@
+
+.background {
+  background-image: url(img/grr+oot.jpg);
+  position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    
+}
+
+.main{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.nav{
+    height: 120px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: inset 5px 5px 10px 4px rgba(0,0,0,0.5);
+}
+.navimgl{
+    height: 100%;
+    float: left;
+    margin-left: 60px;
+    margin-right: -120px;
+    
+}
+.navimgr{
+    height: 100%;
+    float: right;
+    margin-right: 60px;
+    margin-left: -120px;
+    
+}
+
+#Textinput{
+    opacity: 0.8;
+    width: 50%;
+    height: 130px;
+    margin-top: 20px;
+    border: 3px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+button{
+    margin-top: 10px;
+    height: 30px;
+    width: 120px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+}
+button:hover{
+    background-color: red;
+}
+h3{
+    margin-top: 1px;
+}
+#output{
+    padding: 20px;
+    background-color: white;
+    color: black;
+    opacity: 0.9;
+    width: 50%;
+    height: 150px;
+    border: 3px solid black;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: -26px;
+    border-radius: 10px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
